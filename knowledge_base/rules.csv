@@ -1,0 +1,37 @@
+id,topic,rule_or_fact,notes_or_exceptions
+ATT001,Attendance,Minimum 75 percent attendance required for exam eligibility,Medical leave may be excluded if documented
+ATT002,Attendance,Attendance finalized two weeks before exams,Students responsible for monitoring portal
+ATT003,Attendance,University-approved activities may not count as absence,Requires documentation within 5 days
+GPA001,GPA,Minimum CGPA 2.0 required for good standing,None
+GPA002,GPA,CGPA below 2.0 results in Academic Probation,Applies at semester end
+GPA003,GPA,Two consecutive semesters below 2.0 leads to suspension,One semester suspension
+GPA004,GPA,Reinstated students must earn 2.5 semester GPA,Required after suspension
+GRD001,Graduation,Minimum 120 credits required for degree,None
+GRD002,Graduation,Graduation eligibility requires CGPA ≥ 2.0,Financial clearance required
+GRD003,Graduation,Internship completion may be mandatory,Depends on program
+INT001,Integrity,Plagiarism may result in failing grade,Severe cases escalate
+INT002,Integrity,Repeated misconduct may lead to expulsion,Reviewed by committee
+WDL001,Withdrawal,Course withdrawal allowed within 8 weeks,After deadline requires approval
+WDL002,Withdrawal,Withdrawn courses marked as W,Does not affect CGPA
+APL001,Appeals,Appeals must be filed within 10 working days,Applies to probation and suspension
+APL002,Appeals,Appeal decisions are final and binding,None
+APL003,Appeals,Filing appeal does not pause enforcement,None
+LV001,Leave,Leave of absence requires approval before semester,Valid reasons required
+LV002,Leave,Approved leave does not count toward study duration,None
+DUR001,Duration,Degree must be completed within 6 years,Extension possible with approval
+CRD001,Credit,Standard full-time load is 15 credits per semester,Max 18 with approval
+CRD002,Credit,Students may overload with department approval,Max 18 credits
+PRO001,Probation,Probation students must meet advisor within 3 weeks,Failure may cause registration hold
+SUS001,Suspension,Reinstatement requires study improvement plan,None
+SUS002,Suspension,Poor performance after reinstatement may lead to dismissal,None
+EXM001,Exams,Outstanding dues may block exam access,Financial clearance required
+EXM002,Exams,Attendance and financial clearance required for finals,None
+INTN001,Internship,Internship must be supervised and approved,Department coordinator signs off
+REC001,Records,Penalties recorded in disciplinary file,Maintained by university
+INT003,Integrity,Students may respond before penalty applied,Formal documentation required
+INT004,Integrity,All violations reviewed by committee,None
+ATT004,Attendance,Below 75 percent attendance results in exam ineligibility,Unless committee grants exemption
+GPA005,GPA,Good academic standing requires CGPA >= 2.0,None
+GRD004,Graduation,Registrar verifies graduation eligibility,None
+APL004,Appeals,Appeals reviewed by Academic Review Committee,May request documentation
+INTN002,Internship,Internship completion documented and approved,None
