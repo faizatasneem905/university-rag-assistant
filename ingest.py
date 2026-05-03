@@ -8,8 +8,9 @@ from langchain_core.documents import Document
 # ------------------------
 # Paths & Configuration
 # ------------------------
-KB_FOLDER = "/content/drive/MyDrive/knowledge_base"
-VECTORSTORE_PATH = "/content/drive/MyDrive/vectorstore"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+KB_FOLDER = os.path.join(BASE_DIR, "knowledge_base")
+VECTORSTORE_PATH = os.path.join(BASE_DIR, "vectorstore")
 
 md_files = ["handbook.md", "operations.md"]
 csv_file = "rules.csv"
