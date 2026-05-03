@@ -20,7 +20,8 @@ st.set_page_config(
 # Auto-build vectorstore if it doesn't exist
 # This runs on first deployment to Streamlit Cloud
 # ---------------------------------------------------------
-VECTORSTORE_PATH = "vectorstore"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+VECTORSTORE_PATH = os.path.join(BASE_DIR, "vectorstore")
 
 if not os.path.exists(VECTORSTORE_PATH):
     with st.spinner("⚙️ Building knowledge base for first time... (takes ~30 seconds)"):

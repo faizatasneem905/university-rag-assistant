@@ -10,7 +10,8 @@ from langchain_core.output_parsers import StrOutputParser
 # ---------------------------------------------------------
 # 1. Configuration — API key from environment only
 # ---------------------------------------------------------
-VECTORSTORE_PATH = "/content/drive/MyDrive/vectorstore"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+VECTORSTORE_PATH = os.path.join(BASE_DIR, "vectorstore")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not GROQ_API_KEY:
